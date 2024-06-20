@@ -1,0 +1,207 @@
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\appsettings.json
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\GamarraPlus_API.exe
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\GamarraPlus_API.deps.json
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\GamarraPlus_API.runtimeconfig.json
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\GamarraPlus_API.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\GamarraPlus_API.pdb
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.csproj.AssemblyReference.cache
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.AssemblyInfoInputs.cache
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.AssemblyInfo.cs
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.csproj.CoreCompileInputs.cache
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.sourcelink.json
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets\msbuild.GamarraPlus_API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets\msbuild.build.GamarraPlus_API.props
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GamarraPlus_API.props
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GamarraPlus_API.props
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\scopedcss\bundle\GamarraPlus_API.styles.css
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraP.AAA6BA74.Up2Date
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\refint\GamarraPlus_API.dll
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.pdb
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.genruntimeconfig.cache
+C:\Users\migve\OneDrive\Escritorio\Proyecto\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\ref\GamarraPlus_API.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\appsettings.json
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\GamarraPlus_API.exe
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\GamarraPlus_API.deps.json
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\GamarraPlus_API.runtimeconfig.json
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\GamarraPlus_API.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\GamarraPlus_API.pdb
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.csproj.AssemblyReference.cache
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.AssemblyInfoInputs.cache
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.AssemblyInfo.cs
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.csproj.CoreCompileInputs.cache
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.sourcelink.json
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets\msbuild.GamarraPlus_API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets\msbuild.build.GamarraPlus_API.props
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GamarraPlus_API.props
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GamarraPlus_API.props
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\scopedcss\bundle\GamarraPlus_API.styles.css
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraP.AAA6BA74.Up2Date
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\refint\GamarraPlus_API.dll
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.pdb
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.genruntimeconfig.cache
+C:\Users\migve\OneDrive\Escritorio\proyeto gamarra\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\ref\GamarraPlus_API.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\appsettings.json
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\GamarraPlus_API.exe
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\GamarraPlus_API.deps.json
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\GamarraPlus_API.runtimeconfig.json
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\GamarraPlus_API.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\GamarraPlus_API.pdb
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.csproj.AssemblyReference.cache
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.AssemblyInfoInputs.cache
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.AssemblyInfo.cs
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.csproj.CoreCompileInputs.cache
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.sourcelink.json
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets\msbuild.GamarraPlus_API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets\msbuild.build.GamarraPlus_API.props
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GamarraPlus_API.props
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GamarraPlus_API.props
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\scopedcss\bundle\GamarraPlus_API.styles.css
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraP.AAA6BA74.Up2Date
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\refint\GamarraPlus_API.dll
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.pdb
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\GamarraPlus_API.genruntimeconfig.cache
+C:\Users\SIFUENTES\Desktop\GamarraPlus_API\GamarraPlus_API\obj\Debug\net8.0\ref\GamarraPlus_API.dll

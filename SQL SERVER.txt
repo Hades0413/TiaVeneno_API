@@ -1,0 +1,572 @@
+
+create database TiaVeneno
+go
+
+USE TiaVeneno
+go
+
+
+CREATE TABLE CATEGORIA (
+    IdCategoria int primary key identity,
+    Descripcion varchar(100) unique,
+    FechaRegistro datetime default getdate(),
+    CONSTRAINT UQ_Descripcion UNIQUE (Descripcion)
+)
+go
+
+CREATE TABLE PRODUCTO (
+    IdProducto int primary key identity,
+    Codigo varchar(100),
+    IdCategoria int,
+    Descripcion varchar(100),
+    PrecioCompra decimal(10,2),
+    PrecioVenta decimal(10,2),
+    Stock int,
+    FechaRegistro datetime default getdate(),
+    RutaImagen varchar(255),
+    FOREIGN KEY (IdCategoria) REFERENCES CATEGORIA(IdCategoria)
+)
+go
+
+
+create table VENTA(
+    IdVenta int primary key identity,
+    TipoPago varchar(50),
+    NumeroDocumento varchar(50),
+    DocumentoCliente varchar(50),
+    NombreCliente varchar(100),
+    MontoPagoCon decimal(10,2),
+    MontoCambio decimal(10,2),
+    MontoSubTotal  decimal(10,2),
+    MontoIGV  decimal(10,2),
+    MontoTotal decimal(10,2),
+    FechaRegistro datetime default getdate()
+)
+go
+
+create table DETALLE_VENTA(
+    IdDetalleVenta int primary key identity,
+    IdVenta int,
+    IdProducto int,
+    PrecioVenta decimal(10,2),
+    Cantidad int,
+    Total decimal(10,2),
+    FechaRegistro datetime default getdate(),
+    FOREIGN KEY (IdVenta) REFERENCES VENTA(IdVenta),
+    FOREIGN KEY (IdProducto) REFERENCES PRODUCTO(IdProducto)
+)
+go
+
+CREATE TABLE USUARIO(
+    IdUsuario int primary key identity,
+    NombreCompleto varchar(100),
+    Correo varchar(100) UNIQUE,
+    Clave varchar(100),
+    FechaRegistro datetime default getdate()
+)
+GO
+
+
+insert into CATEGORIA(Descripcion) values
+('Marina'), -- Código 1
+('Criolla'), -- Código 2
+('Chifa'), -- Código 3
+('Andina'), -- Código 4
+('Amazonica'), -- Código 5
+('Nikkei'), -- Código 6
+('Vegetariana'), -- Código 7
+('Fusión'), -- Código 8
+('Pastelería'), -- Código 9
+('Sandwichería'), -- Código 10
+('Parrilla'), -- Código 11
+('Cevichería'), -- Código 12
+('Pollería'), -- Código 13
+('Cafetería'), -- Código 14
+('Juguería'), -- Código 15
+('Picantería'), -- Código 16
+('Rosticería'), -- Código 17
+('Anticuchería'), -- Código 18
+('Cocina Novoandina'), -- Código 19
+('Comida Rápida'); -- Código 20
+go
+
+
+
+insert into PRODUCTO(Codigo, IdCategoria, Descripcion, PrecioCompra, PrecioVenta, Stock, RutaImagen) values
+-- Marina
+('MAR001', 1, 'Ceviche de pescado', 15.00, 25.00, 30, 'mar001'),
+('MAR002', 1, 'Arroz con mariscos', 20.00, 35.00, 25, 'mar002'),
+('MAR003', 1, 'Choritos a la chalaca', 10.00, 18.00, 40, 'mar003'),
+('MAR004', 1, 'Jalea mixta', 25.00, 40.00, 20, 'mar004'),
+('MAR005', 1, 'Sudado de pescado', 18.00, 30.00, 15, 'mar005'),
+-- Criolla
+('CRI001', 2, 'Lomo saltado', 20.00, 35.00, 30, 'cri001'),
+('CRI002', 2, 'Aji de gallina', 15.00, 25.00, 35, 'cri002'),
+('CRI003', 2, 'Cau cau', 12.00, 20.00, 25, 'cri003'),
+('CRI004', 2, 'Tacu tacu', 10.00, 18.00, 40, 'cri004'),
+('CRI005', 2, 'Seco con frejoles', 18.00, 30.00, 20, 'cri005'),
+-- Chifa
+('CHI001', 3, 'Arroz chaufa', 10.00, 18.00, 50, 'chi001'),
+('CHI002', 3, 'Tallarín saltado', 12.00, 20.00, 40, 'chi002'),
+('CHI003', 3, 'Pollo tipakay', 15.00, 25.00, 35, 'chi003'),
+('CHI004', 3, 'Kam lu wantán', 20.00, 35.00, 25, 'chi004'),
+('CHI005', 3, 'Sopa wantán', 8.00, 15.00, 45, 'chi005'),
+-- Andina
+('AND001', 4, 'Pachamanca', 25.00, 40.00, 20, 'and001'),
+('AND002', 4, 'Trucha frita', 15.00, 25.00, 30, 'and002'),
+('AND003', 4, 'Olluquito con charqui', 12.00, 20.00, 35, 'and003'),
+('AND004', 4, 'Chairo', 10.00, 18.00, 40, 'and004'),
+('AND005', 4, 'Caldo de cabeza', 8.00, 15.00, 25, 'and005'),
+-- Amazonica
+('AMA001', 5, 'Tacacho con cecina', 20.00, 35.00, 25, 'ama001'),
+('AMA002', 5, 'Juane', 12.00, 20.00, 30, 'ama002'),
+('AMA003', 5, 'Patarashca', 18.00, 30.00, 20, 'ama003'),
+('AMA004', 5, 'Inchicapi', 10.00, 18.00, 35, 'ama004'),
+('AMA005', 5, 'Patarashca', 15.00, 25.00, 25, 'ama005'),
+-- Nikkei
+('NIK001', 6, 'Tiradito', 15.00, 25.00, 40, 'nik001'),
+('NIK002', 6, 'Causa acevichada', 12.00, 20.00, 35, 'nik002'),
+('NIK003', 6, 'Sushi acevichado', 20.00, 35.00, 25, 'nik003'),
+('NIK004', 6, 'Pulpo al olivo', 25.00, 40.00, 20, 'nik004'),
+('NIK005', 6, 'Sashimi de atún', 18.00, 30.00, 30, 'nik005'),
+-- Vegetariana
+('VEG001', 7, 'Quinotto', 12.00, 20.00, 40, 'veg001'),
+('VEG002', 7, 'Ensalada de quinua', 10.00, 18.00, 45, 'veg002'),
+('VEG003', 7, 'Hamburguesa de lentejas', 8.00, 15.00, 50, 'veg003'),
+('VEG004', 7, 'Torrejas de verduras', 10.00, 18.00, 35, 'veg004'),
+('VEG005', 7, 'Causa vegetariana', 12.00, 20.00, 30, 'veg005'),
+-- Fusión
+('FUS001', 8, 'Ceviche de pulpo con maracuyá', 18.00, 30.00, 25, 'fus001'),
+('FUS002', 8, 'Lomo saltado con quinua', 20.00, 35.00, 20, 'fus002'),
+('FUS003', 8, 'Aji de gallina con yuca', 15.00, 25.00, 30, 'fus003'),
+('FUS004', 8, 'Chaufa de cecina', 12.00, 20.00, 35, 'fus004'),
+('FUS005', 8, 'Tiradito de mango', 10.00, 18.00, 40, 'fus005'),
+-- Pastelería
+('PAS001', 9, 'Turrón de Doña Pepa', 8.00, 15.00, 50, 'pas001'),
+('PAS002', 9, 'Suspiro a la limeña', 10.00, 18.00, 45, 'pas002'),
+('PAS003', 9, 'Picarones', 5.00, 10.00, 60, 'pas003'),
+('PAS004', 9, 'Mazamorra morada', 6.00, 12.00, 55, 'pas004'),
+('PAS005', 9, 'Arroz con leche', 4.00, 8.00, 70, 'pas005'),
+-- Sandwichería
+('SAN001', 10, 'Pan con chicharrón', 8.00, 15.00, 40, 'san001'),
+('SAN002', 10, 'Butifarra', 7.00, 13.00, 45, 'san002'),
+('SAN003', 10, 'Triple', 5.00, 10.00, 50, 'san003'),
+('SAN004', 10, 'Pan con pejerrey', 6.00, 12.00, 35, 'san004'),
+('SAN005', 10, 'Sándwich de pollo', 7.00, 13.00, 30, 'san005'),
+-- Parrilla
+('PAR001', 11, 'Anticuchos de corazón', 10.00, 18.00, 30, 'par001'),
+('PAR002', 11, 'Chorizo parrillero', 8.00, 15.00, 40, 'par002'),
+('PAR003', 11, 'Costillar de cerdo', 12.00, 20.00, 25, 'par003'),
+('PAR004', 11, 'Pollo a la brasa', 15.00, 25.00, 20, 'par004'),
+('PAR005', 11, 'Bistec a la parrilla', 18.00, 30.00, 15, 'par005'),
+-- Cevichería
+('CEV001', 12, 'Ceviche clásico', 15.00, 25.00, 30, 'cev001'),
+('CEV002', 12, 'Ceviche mixto', 18.00, 30.00, 25, 'cev002'),
+('CEV003', 12, 'Ceviche de conchas negras', 20.00, 35.00, 20, 'cev003'),
+('CEV004', 12, 'Leche de tigre', 10.00, 18.00, 40, 'cev004'),
+('CEV005', 12, 'Ceviche de pulpo', 18.00, 30.00, 15, 'cev005'),
+-- Pollería
+('POL001', 13, 'Pollo a la brasa con papas', 15.00, 25.00, 30, 'pol001'),
+('POL002', 13, 'Pollo broaster', 12.00, 20.00, 35, 'pol002'),
+('POL003', 13, 'Medio pollo a la brasa', 8.00, 15.00, 50, 'pol003'),
+('POL004', 13, 'Pollo asado con ensalada', 10.00, 18.00, 25, 'pol004'),
+('POL005', 13, 'Salchipollo', 7.00, 13.00, 40, 'pol005'),
+-- Cafetería
+('CAF001', 14, 'Café pasado', 2.00, 5.00, 100, 'caf001'),
+('CAF002', 14, 'Capuchino', 3.00, 7.00, 90, 'caf002'),
+('CAF003', 14, 'Latte', 3.50, 7.50, 80, 'caf003'),
+('CAF004', 14, 'Mocachino', 4.00, 8.00, 70, 'caf004'),
+('CAF005', 14, 'Expreso', 2.50, 6.00, 85, 'caf005'),
+-- Juguería
+('JUG001', 15, 'Jugo de lúcuma', 5.00, 10.00, 50, 'jug001'),
+('JUG002', 15, 'Jugo de maracuyá', 4.00, 8.00, 55, 'jug002'),
+('JUG003', 15, 'Jugo de fresa', 3.50, 7.00, 60, 'jug003'),
+('JUG004', 15, 'Jugo de naranja', 3.00, 6.00, 70, 'jug004'),
+('JUG005', 15, 'Jugo surtido', 4.50, 9.00, 65, 'jug005'),
+-- Picantería
+('PIC001', 16, 'Adobo arequipeño', 18.00, 30.00, 25, 'pic001'),
+('PIC002', 16, 'Rocoto relleno', 15.00, 25.00, 30, 'pic002'),
+('PIC003', 16, 'Solterito', 10.00, 18.00, 35, 'pic003'),
+('PIC004', 16, 'Chupe de camarones', 20.00, 35.00, 20, 'pic004'),
+('PIC005', 16, 'Malaya frita', 12.00, 20.00, 40, 'pic005'),
+-- Rosticería
+('ROS001', 17, 'Lechón al horno', 25.00, 40.00, 15, 'ros001'),
+('ROS002', 17, 'Pavo rostizado', 20.00, 35.00, 20, 'ros002'),
+('ROS003', 17, 'Pato al horno', 18.00, 30.00, 25, 'ros003'),
+('ROS004', 17, 'Pollo rostizado', 15.00, 25.00, 30, 'ros004'),
+('ROS005', 17, 'Costillar al horno', 22.00, 35.00, 20, 'ros005'),
+-- Anticuchería
+('ANT001', 18, 'Anticuchos de corazón', 10.00, 18.00, 50, 'ant001'),
+('ANT002', 18, 'Anticuchos de hígado', 8.00, 15.00, 45, 'ant002'),
+('ANT003', 18, 'Anticuchos de pollo', 7.00, 13.00, 55, 'ant003'),
+('ANT004', 18, 'Anticuchos de cordero', 12.00, 20.00, 35, 'ant004'),
+('ANT005', 18, 'Anticuchos mixtos', 15.00, 25.00, 30, 'ant005'),
+-- Cocina Novoandina
+('NOV001', 19, 'Causa de quinua', 10.00, 18.00, 40, 'nov001'),
+('NOV002', 19, 'Ravioles de olluco', 12.00, 20.00, 35, 'nov002'),
+('NOV003', 19, 'Solterito de quinua', 8.00, 15.00, 45, 'nov003'),
+('NOV004', 19, 'Tiradito de tarwi', 15.00, 25.00, 30, 'nov004'),
+('NOV005', 19, 'Causa acevichada de quinua', 12.00, 20.00, 35, 'nov005'),
+-- Comida Rápida
+('RAP001', 20, 'Salchipapas', 5.00, 10.00, 60, 'rap001'),
+('RAP002', 20, 'Hamburguesa clásica', 7.00, 13.00, 55, 'rap002'),
+('RAP003', 20, 'Papa rellena', 4.00, 8.00, 70, 'rap003'),
+('RAP004', 20, 'Taco al pastor', 8.00, 15.00, 50, 'rap004'),
+('RAP005', 20, 'Hot dog', 6.00, 12.00, 65, 'rap005');
+go
+
+
+insert into USUARIO(NombreCompleto, Correo, Clave) values 
+('Jorge Fabrizio Olano Farfan 26', 'leder@hotmail.com', 'asd'),
+('Claudia Sifuentes', 'autista@hotmail.com', 'asd'),
+('Miguel Jaime', 'hades@hotmail.com', 'asd'),
+('Nicolas Perez', 'nicolas@hotmail.com', 'asd')
+go
+
+create procedure sp_listar_producto
+as
+begin
+    select 
+        p.IdProducto,
+        p.Codigo,
+        c.IdCategoria,
+        c.Descripcion as DesCategoria,
+        p.Descripcion,
+        p.PrecioCompra,
+        p.PrecioVenta,
+        p.Stock,
+        p.RutaImagen
+    from PRODUCTO p
+    inner join CATEGORIA c on c.IdCategoria = p.IdCategoria
+    order by p.IdProducto asc
+end
+go
+
+
+create procedure sp_guardar_producto
+(
+    @Codigo varchar(100),
+    @IdCategoria int,
+    @Descripcion varchar(100),
+    @PrecioCompra decimal(10,2),
+    @PrecioVenta decimal(10,2),
+    @Stock int,
+    @RutaImagen varchar(255)
+)
+as
+begin
+    insert into PRODUCTO(Codigo, IdCategoria, Descripcion, PrecioCompra, PrecioVenta, Stock, RutaImagen) 
+    values (@Codigo, @IdCategoria, @Descripcion, @PrecioCompra, @PrecioVenta, @Stock, @RutaImagen)
+end
+go
+
+
+
+CREATE PROCEDURE sp_obtener_producto_por_id
+(
+    @IdProducto int
+)
+AS
+BEGIN
+    SELECT 
+        p.IdProducto,
+        p.Codigo,
+        p.IdCategoria,
+        c.Descripcion AS DesCategoria,
+        p.Descripcion,
+        p.PrecioCompra,
+        p.PrecioVenta,
+        p.Stock,
+        p.RutaImagen
+    FROM PRODUCTO p
+    INNER JOIN CATEGORIA c ON c.IdCategoria = p.IdCategoria
+    WHERE p.IdProducto = @IdProducto;
+END
+GO
+
+
+CREATE PROCEDURE sp_editar_producto
+(
+    @IdProducto int,
+    @Codigo varchar(100),
+    @IdCategoria int,
+    @Descripcion varchar(100),
+    @PrecioCompra decimal(10,2),
+    @PrecioVenta decimal(10,2),
+    @Stock int,
+    @RutaImagen varchar(255)
+)
+AS
+BEGIN
+    UPDATE PRODUCTO 
+    SET 
+        Codigo = @Codigo, 
+        IdCategoria = @IdCategoria, 
+        Descripcion = @Descripcion, 
+        PrecioCompra = @PrecioCompra,
+        PrecioVenta = @PrecioVenta, 
+        Stock = @Stock,
+        RutaImagen = @RutaImagen 
+    WHERE IdProducto = @IdProducto;
+END
+GO
+
+
+create procedure sp_eliminar_producto
+(
+@IdProducto int
+)
+as
+begin
+	delete from PRODUCTO where IdProducto = @IdProducto
+end
+
+go
+
+
+CREATE PROCEDURE sp_listar_categoria
+AS
+BEGIN
+    SELECT IdCategoria, Descripcion 
+    FROM CATEGORIA
+    ORDER BY IdCategoria;
+END
+GO
+
+
+
+CREATE PROCEDURE sp_obtener_categoria_por_id
+(
+    @IdCategoria int
+)
+AS
+BEGIN
+    SELECT IdCategoria, Descripcion
+    FROM CATEGORIA
+    WHERE IdCategoria = @IdCategoria
+END
+GO
+
+
+create procedure sp_guardar_categoria
+(
+@Descripcion varchar(100)
+)
+as
+begin
+	
+	insert into CATEGORIA(Descripcion) values
+	(@Descripcion)
+
+end
+go
+
+create procedure sp_editar_categoria
+(
+@IdCategoria int,
+@Descripcion varchar(100)
+)
+as
+begin
+
+	update CATEGORIA set Descripcion = @Descripcion where IdCategoria = @IdCategoria
+
+end
+go
+
+
+create procedure sp_eliminar_categoria
+(
+@IdCategoria int
+)
+as
+begin
+	delete from CATEGORIA where IdCategoria = @IdCategoria
+end
+
+go
+
+CREATE PROCEDURE sp_listar_usuario
+AS
+BEGIN
+    SELECT IdUsuario, NombreCompleto, Correo, Clave
+    FROM USUARIO
+    ORDER BY IdUsuario;
+END
+GO
+
+
+create procedure sp_guardar_usuario
+(
+@NombreCompleto varchar(100),
+@Correo varchar(100),
+@Clave varchar(100)
+)
+as
+begin
+	
+	insert into USUARIO(NombreCompleto,Correo,Clave) values
+	(@NombreCompleto,@Correo,@Clave)
+end
+go
+
+create procedure sp_editar_usuario
+(
+@IdUsuario int,
+@NombreCompleto varchar(100),
+@Correo varchar(100),
+@Clave varchar(100)
+)
+as
+begin
+
+	update USUARIO set NombreCompleto = @NombreCompleto, Correo = @Correo,Clave = @Clave
+	where IdUsuario = @IdUsuario
+
+end
+go
+
+
+create procedure sp_eliminar_usuario
+(
+@IdUsuario int
+)
+as
+begin
+	delete from USUARIO where IdUsuario = @IdUsuario
+end
+GO
+
+create procedure sp_registrar_venta(
+@Venta_xml xml,
+@NroDocumento varchar(6) output
+)
+as
+begin
+
+	
+	declare @venta table (
+	TipoPago varchar(50),
+	NumeroDocumento varchar(50),
+	DocumentoCliente varchar(50),
+	NombreCliente varchar(50),
+	MontoPagoCon decimal(10,2),
+	MontoCambio decimal(10,2),
+	MontoSubTotal decimal(10,2),
+	MontoIGV decimal(10,2),
+	MontoTotal decimal(10,2)
+	)
+
+	declare @detalleventa table (
+	IdVenta int default 0,
+	IdProducto int,
+	PrecioVenta decimal(10,2),
+	Cantidad int,
+	Total decimal(10,2)
+	)
+	
+	BEGIN TRY
+		BEGIN TRANSACTION
+
+		insert into @venta(TipoPago,NumeroDocumento,DocumentoCliente,NombreCliente,MontoPagoCon,MontoCambio,MontoSubTotal,MontoIGV,MontoTotal)
+		select 
+			nodo.elemento.value('TipoPago[1]','varchar(50)') as TipoPago,
+			nodo.elemento.value('NumeroDocumento[1]','varchar(50)') as NumeroDocumento,
+			nodo.elemento.value('DocumentoCliente[1]','varchar(50)') as DocumentoCliente,
+			nodo.elemento.value('NombreCliente[1]','varchar(50)') as NombreCliente,
+			nodo.elemento.value('MontoPagoCon[1]','decimal(10,2)') as MontoPagoCon,
+			nodo.elemento.value('MontoCambio[1]','decimal(10,2)') as MontoCambio,
+			nodo.elemento.value('MontoSubTotal[1]','decimal(10,2)') as MontoSubTotal,
+			nodo.elemento.value('MontoIGV[1]','decimal(10,2)') as MontoIGV,
+			nodo.elemento.value('MontoTotal[1]','decimal(10,2)') as MontoTotal
+		from @Venta_xml.nodes('Venta') nodo(elemento)
+
+		insert into @detalleventa(IdProducto,PrecioVenta,Cantidad,Total)
+		select 
+			nodo.elemento.value('IdProducto[1]','int') as IdProducto,
+			nodo.elemento.value('PrecioVenta[1]','decimal(10,2)') as PrecioVenta,
+			nodo.elemento.value('Cantidad[1]','int') as Cantidad,
+			nodo.elemento.value('Total[1]','decimal(10,2)') as Total
+		from @Venta_xml.nodes('Venta/Detalle_Venta/Item') nodo(elemento)
+
+
+		declare @identity as table(ID int)
+		declare @id int = (SELECT isnull(max(IdVenta),0) +1 FROM VENTA)
+		declare @tempnrodocumento varchar(50) = RIGHT('000000' + convert(varchar(max),@id),6)
+
+		INSERT INTO VENTA(TipoPago,NumeroDocumento,DocumentoCliente,NombreCliente,MontoPagoCon,MontoCambio,MontoSubTotal,MontoIGV,MontoTotal)
+		output inserted.IdVenta into @identity
+		select TipoPago,@tempnrodocumento ,DocumentoCliente,NombreCliente,MontoPagoCon,MontoCambio,MontoSubTotal,MontoIGV,MontoTotal from @venta
+		
+
+		update @detalleventa set IdVenta = (select ID from @identity)
+
+		insert into DETALLE_VENTA(IdVenta,IdProducto,PrecioVenta,Cantidad,Total)
+		select IdVenta,IdProducto,PrecioVenta,Cantidad,Total from @detalleventa
+
+
+		update p set p.Stock = p.Stock - dv.Cantidad from PRODUCTO p
+		inner join @detalleventa dv on dv.IdProducto = p.IdProducto
+
+		COMMIT
+		set @NroDocumento = @tempnrodocumento
+
+	END TRY
+	BEGIN CATCH
+		ROLLBACK
+		set @NroDocumento = ''
+	END CATCH
+
+end
+go
+
+
+create procedure sp_detalle_venta(
+@nrodocumento varchar(50)
+)
+as
+begin
+		select
+		v.TipoPago,
+		v.NumeroDocumento,
+		isnull(v.DocumentoCliente,'0')[DocumentoCliente],
+		isnull(v.NombreCliente,'0')[NombreCliente],
+		isnull(v.MontoPagoCon,'0')[MontoPagoCon],
+		isnull(v.MontoCambio,'0')[MontoCambio],
+		v.MontoSubTotal,
+		v.MontoIGV,
+		v.MontoTotal,
+		convert(char(10),v.FechaRegistro,103)[FechaRegistro],
+		(
+			select p.Descripcion,dv.Cantidad,dv.PrecioVenta,dv.Total from DETALLE_VENTA dv
+			inner join PRODUCTO p on dv.IdProducto = p.IdProducto
+			where dv.IdVenta = v.IdVenta
+			FOR XML PATH ('Item'),TYPE
+		) [DetalleVenta]
+
+		from venta v where v.NumeroDocumento= @nrodocumento
+		FOR XML PATH ('') , ROOT('Venta') 
+end
+go
+
+create procedure sp_reporte_venta(
+@fechaInicio varchar(10),
+@fechaFin varchar(10)
+)
+as
+begin
+
+	set dateformat dmy
+	
+	select v.TipoPago,v.NumeroDocumento,v.MontoTotal,
+	convert(char(10),v.FechaRegistro,103)[FechaRegistro],
+	p.Descripcion[DesProducto], dv.Cantidad,dv.PrecioVenta,dv.Total
+	from VENTA v
+	inner join DETALLE_VENTA dv on v.IdVenta = dv.IdVenta
+	inner join PRODUCTO p on p.IdProducto = dv.IdProducto
+	where convert(date, v.FechaRegistro) between @fechaInicio and @fechaFin
+end
+go
+
+
+

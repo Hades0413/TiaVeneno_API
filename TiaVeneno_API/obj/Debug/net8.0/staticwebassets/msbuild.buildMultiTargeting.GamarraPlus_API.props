@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GamarraPlus_API.props" />
+</Project>
