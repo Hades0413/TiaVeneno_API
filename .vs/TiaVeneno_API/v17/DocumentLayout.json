@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\migve\\OneDrive\\Escritorio\\TiaVeneno_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AF4EF9E-BB7D-4940-A69B-C95C3B054B4B}|TiaVeneno_API\\TiaVeneno_API.csproj|c:\\users\\migve\\onedrive\\escritorio\\tiaveneno_api\\tiaveneno_api\\repositorio\\dao\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AF4EF9E-BB7D-4940-A69B-C95C3B054B4B}|TiaVeneno_API\\TiaVeneno_API.csproj|solutionrelative:tiaveneno_api\\repositorio\\dao\\usuariodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AF4EF9E-BB7D-4940-A69B-C95C3B054B4B}|TiaVeneno_API\\TiaVeneno_API.csproj|c:\\users\\migve\\onedrive\\escritorio\\tiaveneno_api\\tiaveneno_api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AF4EF9E-BB7D-4940-A69B-C95C3B054B4B}|TiaVeneno_API\\TiaVeneno_API.csproj|solutionrelative:tiaveneno_api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\migve\\OneDrive\\Escritorio\\TiaVeneno_API\\TiaVeneno_API\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "TiaVeneno_API\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\migve\\OneDrive\\Escritorio\\TiaVeneno_API\\TiaVeneno_API\\Models\\Usuario.cs",
+              "RelativeToolTip": "TiaVeneno_API\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T21:34:07.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioDAO.cs",
+              "DocumentMoniker": "C:\\Users\\migve\\OneDrive\\Escritorio\\TiaVeneno_API\\TiaVeneno_API\\Repositorio\\DAO\\UsuarioDAO.cs",
+              "RelativeDocumentMoniker": "TiaVeneno_API\\Repositorio\\DAO\\UsuarioDAO.cs",
+              "ToolTip": "C:\\Users\\migve\\OneDrive\\Escritorio\\TiaVeneno_API\\TiaVeneno_API\\Repositorio\\DAO\\UsuarioDAO.cs",
+              "RelativeToolTip": "TiaVeneno_API\\Repositorio\\DAO\\UsuarioDAO.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T21:31:35.837Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

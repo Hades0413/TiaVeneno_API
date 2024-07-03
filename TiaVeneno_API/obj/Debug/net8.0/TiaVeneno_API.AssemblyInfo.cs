@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TiaVeneno_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54fa94a6258c03704254ffa5d4944750c599a298")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ecebc9a6c6e28b7a4b2c7fff3f20dfc8fdbb748")]
 [assembly: System.Reflection.AssemblyProductAttribute("TiaVeneno_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TiaVeneno_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

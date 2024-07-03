@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\migve\\OneDrive\\Escritorio\\proyeto gamarra\\TiaVeneno_API\\TiaVeneno_API\\TiaVeneno_API.csproj": {}
+    "C:\\Users\\migve\\OneDrive\\Escritorio\\TiaVeneno_API\\TiaVeneno_API\\TiaVeneno_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\migve\\OneDrive\\Escritorio\\proyeto gamarra\\TiaVeneno_API\\TiaVeneno_API\\TiaVeneno_API.csproj": {
+    "C:\\Users\\migve\\OneDrive\\Escritorio\\TiaVeneno_API\\TiaVeneno_API\\TiaVeneno_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\migve\\OneDrive\\Escritorio\\proyeto gamarra\\TiaVeneno_API\\TiaVeneno_API\\TiaVeneno_API.csproj",
+        "projectUniqueName": "C:\\Users\\migve\\OneDrive\\Escritorio\\TiaVeneno_API\\TiaVeneno_API\\TiaVeneno_API.csproj",
         "projectName": "TiaVeneno_API",
-        "projectPath": "C:\\Users\\migve\\OneDrive\\Escritorio\\proyeto gamarra\\TiaVeneno_API\\TiaVeneno_API\\TiaVeneno_API.csproj",
+        "projectPath": "C:\\Users\\migve\\OneDrive\\Escritorio\\TiaVeneno_API\\TiaVeneno_API\\TiaVeneno_API.csproj",
         "packagesPath": "C:\\Users\\migve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\migve\\OneDrive\\Escritorio\\proyeto gamarra\\TiaVeneno_API\\TiaVeneno_API\\obj\\",
+        "outputPath": "C:\\Users\\migve\\OneDrive\\Escritorio\\TiaVeneno_API\\TiaVeneno_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\migve\\AppData\\Roaming\\NuGet\\NuGet.Config",

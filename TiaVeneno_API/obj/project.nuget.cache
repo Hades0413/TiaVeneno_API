@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dCTmvmEIDnlUHB0Zsmi6NU0gSk+sFObOCP4eY30YW+c4U+gaDd1yqP/ASkFHnwc4zzTo1c05Pp5iyb72uGq8QA==",
+  "dgSpecHash": "XOktQWnO59iwfPvWoWECpn1BX8q19MAE+SjRZt0vfv31iFMAkdLf8J2/hHjLB8s3JZSacRvm6TFHiuDLrbPr7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\migve\\OneDrive\\Escritorio\\proyeto gamarra\\TiaVeneno_API\\TiaVeneno_API\\TiaVeneno_API.csproj",
+  "projectFilePath": "C:\\Users\\migve\\OneDrive\\Escritorio\\TiaVeneno_API\\TiaVeneno_API\\TiaVeneno_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\migve\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\migve\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
